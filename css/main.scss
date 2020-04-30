@@ -1,16 +1,6 @@
-// these are variables to tARGET all the differnet
-// color you may want to use.
-
-$primary-color: #272727;
-$accent-color: #ff652f;
-$text-color: #fff;
-
-$font-weights: (
-    "regular": 400,
-    "medium": 500,
-    "bold": 700 
-);
-
+@import './resepets';
+@import './variables';
+@import './functions';
 
 // how to target the body tag by just using the variables
 
@@ -21,8 +11,13 @@ body {
 
 // target the main class
 .main {
+
     width: 80%;
     margin: 0 auto;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+
 
     //to target classes with you main class
     // e.g this paragraph class using its class name
@@ -30,7 +25,7 @@ body {
 
     #{&}__paragraph {
 
-        font-weight: map-get($font-weights, medium);
+        font-weight: weight(bold);
         
         // adding a hover effect
 
