@@ -214,12 +214,12 @@
   margin-bottom: 2rem;
 }
 
-.about__bio {
+.about__bio-image__bio {
   width: 80%;
   text-align: center;
 }
 
-.about__bio .text-secondary {
+.about__bio-image__bio .text-secondary {
   padding-bottom: 1rem;
 }
 

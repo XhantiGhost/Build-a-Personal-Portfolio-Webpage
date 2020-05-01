@@ -1,6 +1,7 @@
 .about {
     padding-bottom: 2rem;
 
+   
     &__bio-image {
         height: 50vh;
         width: 100%;
@@ -10,7 +11,6 @@
             rgba($primary-color, 0.9),
             rgba($primary-color, 0.3)
         ),
-        
         url('../img/sanni-sahil-r-WFiYhptDk-unsplash.jpg') center top;
         background-size: cover;
         display: flex;
@@ -23,17 +23,19 @@
             
         }
 
-    }
-
-    &__bio {
-        width: 80%;
-        text-align: center;
-
-
-        .text-secondary {
-            padding-bottom: 1rem;
+        &__bio {
+            width: 80%;
+            text-align: center;
+    
+            .text-secondary {
+                padding-bottom: 1rem;
+            }
         }
+    
+
     }
+
+
 
     .jobs {
         width: 60vw;
@@ -62,8 +64,10 @@
         flex-direction: column;
     }
 
-footer {
-    transform: rotate(90deg) translate(-3rem, -5rem);
-}
+    footer {
+    transform:
+     rotate(90deg) 
+     translate(-3rem, -5rem);
+    }
    
-}
+ }
