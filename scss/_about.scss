@@ -1,6 +1,15 @@
 .about {
     padding-bottom: 2rem;
 
+
+    &__bio {
+        width: 80%;
+        text-align: center;
+
+        .text-secondary {
+            padding-bottom: 1rem;
+        }
+    }
    
     &__bio-image {
         height: 50vh;
@@ -23,19 +32,10 @@
             
         }
 
-        &__bio {
-            width: 80%;
-            text-align: center;
     
-            .text-secondary {
-                padding-bottom: 1rem;
-            }
-        }
     
 
     }
-
-
 
     .jobs {
         width: 60vw;

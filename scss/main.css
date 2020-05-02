@@ -189,6 +189,15 @@
   padding-bottom: 2rem;
 }
 
+.about__bio {
+  width: 80%;
+  text-align: center;
+}
+
+.about__bio .text-secondary {
+  padding-bottom: 1rem;
+}
+
 .about__bio-image {
   height: 50vh;
   width: 100%;
@@ -212,15 +221,6 @@
 
 .about__bio-image p {
   margin-bottom: 2rem;
-}
-
-.about__bio-image__bio {
-  width: 80%;
-  text-align: center;
-}
-
-.about__bio-image__bio .text-secondary {
-  padding-bottom: 1rem;
 }
 
 .about .jobs {
